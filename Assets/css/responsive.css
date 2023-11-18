@@ -1,0 +1,33 @@
+/* Untuk Tablet */
+@media screen and (max-width: 1000px) {
+    /* Start Footer*/
+    .kontak,
+    .social-media {
+      margin-top: 25px;
+    }
+  
+    /* End Footer*/
+  }
+  
+  /* Untuk HP */
+  @media screen and (max-width: 670px) {
+    .img-manfaat {
+        width: 100%;
+        max-width: 200px; /* Atur lebar maksimum gambar untuk layar mobile */
+        margin-bottom: 200px; /* Atur margin bawah untuk memisahkan gambar dan teks */
+      }
+  
+    /* Start Footer*/
+    .informasi,
+    .kontak,
+    .social-media {
+      margin-top: 25px;
+    }
+  
+    .copyright p {
+      font-size: 9px;
+    }
+  
+    /* End Footer*/
+  }
+  
